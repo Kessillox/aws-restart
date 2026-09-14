@@ -6,14 +6,14 @@ Documentación de actividades y laboratorios realizados durante el curso AWS re 
 
 ### Fundamentos de la Nube
 
-- [Laboratorio 11 Introducción a Amazon EC2](labs/11-Introduccion%20a%20Amazon%20EC2/README.md)
+- [Laboratorio 11 Introducción a Amazon EC2](laboratorios/11-Introduccion_a_Amazon_EC2/README.md)
 
 
 ### Linux
 
-- [Laboratorio 225 Introducción a la AMI de Amazon Linux](labs/225-Introduccion%20a%20la%20AMI%20de%20Amazon%20Linux/README.md)
-- [Laboratorio 227 Linea de Comandos de Linux](labs/227-Linea%20de%20comandos%20de%20Linux/README.md)
-- [Laboratorio 229 Administración de Usuarios y Grupos](labs/229-Administracion%20de%20usuarios%20y%20grupos/README.MD)
+- [Laboratorio 225 Introducción a la AMI de Amazon Linux](laboratorios/225-Introduccion_a_la_AMI_de_Amazon_Linux/README.md)
+- [Laboratorio 227 Linea de Comandos de Linux](laboratorios/227-Linea_de_comandos_de_Linux/README.md)
+- [Laboratorio 229 Administración de Usuarios y Grupos](laboratorios/229-Administracion_de_usuarios_y_grupos/README.MD)
 
 
 ### Redes
