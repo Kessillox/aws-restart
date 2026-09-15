@@ -14,6 +14,7 @@ Documentación de actividades y laboratorios realizados durante el curso AWS re 
 - [Laboratorio 225 Introducción a la AMI de Amazon Linux](laboratorios/225-Introduccion_a_la_AMI_de_Amazon_Linux/README.md)
 - [Laboratorio 227 Linea de Comandos de Linux](laboratorios/227-Linea_de_comandos_de_Linux/README.md)
 - [Laboratorio 229 Administración de Usuarios y Grupos](laboratorios/229-Administracion_de_usuarios_y_grupos/README.MD)
+- [Laboratorio 231 Edición de Archivos](laboratorios/231-Edicion_de_archivos/README.md)
 
 
 ### Redes
