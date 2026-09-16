@@ -21,8 +21,9 @@ Curso: CLSAN30
 - [Laboratorio 235 Trabajo con Archivos](laboratorios/235-Trabajo_con_archivos/README.md)
 - [Laboratorio 237 Administración de Permisos de Archivo](laboratorios/237-Administracion_de_permisos_de_archivo/README.md)
 - [Laboratorio 239 Administración de Procesos](laboratorios/239-Administracion_de_procesos/README.md)
-
+- [Laboratorio 241 Administración de Procesos: Supervisión](laboratorios/241-Administracion_procesos_supervision/README.md)
 - [Laboratorio 247 Trabajo con Comandos](laboratorios/247-Trabajo_con_comandos/README.md)
+- [Laboratorio 249 Bash Shell](laboratorios/249-bash_shell/README.md)
 
 ### Redes
 
