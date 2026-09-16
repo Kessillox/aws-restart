@@ -19,7 +19,7 @@ Curso: CLSAN30
 - [Laboratorio 231 Edición de Archivos](laboratorios/231-Edicion_de_archivos/README.md)
 - [Laboratorio 233 Trabajo con el Sistema de Archivos](laboratorios/233-Trabajo_con_el_sistema_de_Archivos/README.md)
 - [Laboratorio 235 Trabajo con Archivos](laboratorios/235-Trabajo_con_archivos/README.md)
--[Laboratorio 237 Administración de Permisos de Archivo](laboratorios/237-Administracion_de_permisos_de_archivo/README.md)
+- [Laboratorio 237 Administración de Permisos de Archivo](laboratorios/237-Administracion_de_permisos_de_archivo/README.md)
 
 
 ### Redes
