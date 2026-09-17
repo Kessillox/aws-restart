@@ -27,6 +27,7 @@ Curso: CLSAN30
 - [Laboratorio 247 Trabajo con Comandos](laboratorios/247-Trabajo_con_comandos/README.md)
 - [Laboratorio 249 Bash Shell](laboratorios/249-bash_shell/README.md)
 - [Laboratorio 251 Bash Shell Srcipts](laboratorios/251-Bash_shell_script/README.md)
+- [Laboratorio 253 Desafío Scripting Bash Shell](laboratorios/253-Desafío/README.md)
 
 ### Redes
 
