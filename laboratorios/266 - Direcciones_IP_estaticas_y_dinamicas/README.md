@@ -1,4 +1,4 @@
-![Logo ReCoders](asstes/logoReCoders.png)
+![Logo ReCoders](assets/logoReCoders.png)
 
 # 🚀 Laboratorio: 266 — Solución de problemas de una red
 
@@ -93,7 +93,7 @@ Navegador / terminal → Internet Gateway → subred pública → instancia Linu
 VPC: 10.0.0.0/16 · Subred de referencia: 10.0.10.0/24
 ```
 
-![Arquitectura del cliente](asstes/01-arquitectura.png)
+![Arquitectura del cliente](assets/01-arquitectura.png)
 
 La imagen es la arquitectura de referencia de la guía; no demuestra la configuración efectiva de rutas o reglas.
 
@@ -113,7 +113,7 @@ La imagen es la arquitectura de referencia de la guía; no demuestra la configur
 
 **Por qué se hace:** permite consultar los recursos de la réplica del cliente.
 
-![Consola AWS](asstes/03-consola.png)
+![Consola AWS](assets/03-consola.png)
 
 **Límite de la evidencia:** no se muestra el panel con el estado ready.
 
@@ -138,7 +138,7 @@ ssh -i labsuser.pem ec2-user@<PUBLIC_IP>
 
 **Por qué se hace:** permite ejecutar los comandos de comprobación de Apache.
 
-![Conexión SSH exitosa](asstes/02-ssh.png)
+![Conexión SSH exitosa](assets/02-ssh.png)
 
 **Límite de la evidencia:** SSH exitoso no valida HTTP ni ping. La captura contiene la IP pública y requiere difuminado antes de publicarse.
 
@@ -165,7 +165,7 @@ ssh -i labsuser.pem ec2-user@<PUBLIC_IP>
 
 **Por qué se hace:** relaciona la conexión SSH con el recurso de EC2.
 
-![Detalles de la instancia EC2](asstes/04-instancia.png)
+![Detalles de la instancia EC2](assets/04-instancia.png)
 
 **Límite de la evidencia:** el estado de EC2 no confirma el estado del servicio web. La captura requiere difuminar IP y DNS públicos.
 
@@ -212,11 +212,11 @@ sudo systemctl status httpd.service
 
 **Por qué se hace:** delimita los recursos que deben investigarse.
 
-![Lab VPC](asstes/07-vpc.png)
+![Lab VPC](assets/07-vpc.png)
 
-![Estado de Lab VPC](asstes/09-vpc-detalles.png)
+![Estado de Lab VPC](assets/09-vpc-detalles.png)
 
-![Subred pública](asstes/06-subred.png)
+![Subred pública](assets/06-subred.png)
 
 **Límite de la evidencia:** no se muestran la tabla de rutas efectiva ni sus asociaciones.
 
@@ -234,7 +234,7 @@ sudo systemctl status httpd.service
 
 **Por qué se hace:** es uno de los componentes de conectividad que solicita revisar la guía.
 
-![Puerta de enlace de internet](asstes/08-internet-gateway.png)
+![Puerta de enlace de internet](assets/08-internet-gateway.png)
 
 **Límite de la evidencia:** no demuestra que exista una ruta hacia ella. La captura contiene un Account ID que requiere difuminado.
 
@@ -259,7 +259,7 @@ sudo systemctl status httpd.service
 
 **Por qué se hace:** comprobar las reglas que la guía incluye entre los posibles bloqueos.
 
-![ACL de red y reglas](asstes/05-acl.png)
+![ACL de red y reglas](assets/05-acl.png)
 
 **Límite de la evidencia:** no demuestra que se haya guardado una modificación. No se documenta una solución aplicada.
 
@@ -363,15 +363,15 @@ La guía indica finalizar el entorno mediante su propio mecanismo:
 
 | # | Archivo | Paso | Qué demuestra | Sanitizada |
 |---:|---|---|---|---|
-| 1 | `asstes/01-arquitectura.png` | Arquitectura | Arquitectura del cliente | Sin datos sensibles identificados en esta revisión |
-| 2 | `asstes/02-ssh.png` | 2 | Conexión SSH exitosa | Pendiente |
-| 3 | `asstes/03-consola.png` | 1 | Consola AWS | Sin datos sensibles identificados en esta revisión |
-| 4 | `asstes/04-instancia.png` | 3 | Detalles de la instancia EC2 | Pendiente |
-| 5 | `asstes/05-acl.png` | 7 | ACL de red y reglas | Sin datos sensibles identificados en esta revisión |
-| 6 | `asstes/06-subred.png` | 5 | Subred pública | Sin datos sensibles identificados en esta revisión |
-| 7 | `asstes/07-vpc.png` | 5 | Lab VPC | Sin datos sensibles identificados en esta revisión |
-| 8 | `asstes/08-internet-gateway.png` | 6 | Puerta de enlace de internet | Pendiente |
-| 9 | `asstes/09-vpc-detalles.png` | 5 | Estado de Lab VPC | Sin datos sensibles identificados en esta revisión |
+| 1 | `assets/01-arquitectura.png` | Arquitectura | Arquitectura del cliente | Sin datos sensibles identificados en esta revisión |
+| 2 | `assets/02-ssh.png` | 2 | Conexión SSH exitosa | Pendiente |
+| 3 | `assets/03-consola.png` | 1 | Consola AWS | Sin datos sensibles identificados en esta revisión |
+| 4 | `assets/04-instancia.png` | 3 | Detalles de la instancia EC2 | Pendiente |
+| 5 | `assets/05-acl.png` | 7 | ACL de red y reglas | Sin datos sensibles identificados en esta revisión |
+| 6 | `assets/06-subred.png` | 5 | Subred pública | Sin datos sensibles identificados en esta revisión |
+| 7 | `assets/07-vpc.png` | 5 | Lab VPC | Sin datos sensibles identificados en esta revisión |
+| 8 | `assets/08-internet-gateway.png` | 6 | Puerta de enlace de internet | Pendiente |
+| 9 | `assets/09-vpc-detalles.png` | 5 | Estado de Lab VPC | Sin datos sensibles identificados en esta revisión |
 
 ## Aprendizajes
 
