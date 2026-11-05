@@ -44,6 +44,7 @@ Curso: CLSAN30
 - [Laboratorio 271 Realización de una búsqueda condicional](laboratorios/271-Realización_de_una_búsqueda_condicional/README.md)
 - [Laboratorio 272 Trabajar con funciones](laboratorios/272-Trabajar_con_funciones/README.md)
 - [Laboratorio 274 Introducción a Amazon Aurora](laboratorios/274-Introducción_a_Amazon_Aurora/README.md)
+- [Laboratorio 295 Introducción a DynamoDB](laboratorios/295-Introduccion_a_DynamoDB/README.md)
 
 ### Seguridad
 
