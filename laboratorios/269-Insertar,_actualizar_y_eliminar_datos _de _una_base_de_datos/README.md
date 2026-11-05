@@ -10,7 +10,7 @@
 
 | Dato | Información |
 |---|---|
-| Módulo | Redes |
+| Módulo | Bases de Datos |
 | Región | us-west-2 |
 | Duración estimada de la guía | 45 minutos |
 

@@ -4,7 +4,7 @@
 
 **ReCoders® 2026**  
 **Autor:** Felipe Kessi Bustos  
-**Módulo:** Redes  
+**Módulo:** Bases de Datos  
 **Región:** us-west-2  
 **Duración estimada de la guía:** 45 minutos
 
